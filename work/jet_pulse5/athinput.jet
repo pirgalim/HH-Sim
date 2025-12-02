@@ -1,7 +1,7 @@
 <comment>
-problem   = underdense Mach10 jet
+problem   = underdense Mach10 pulsed jet
 reference = 
-configure = --prob=jet 
+configure = --prob=jet_pulse 
 
 <job>
 problem_id = jet      # problem ID: basename of output filenames
