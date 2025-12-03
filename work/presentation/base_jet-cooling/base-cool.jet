@@ -2,7 +2,7 @@
 problem   = underdense Mach10 jet
 reference = 
 configure = --prob=jet 
-note = gamma=1.1 | domain=150×30 | resolution=1000×300 | tlim=150 | B-field=off
+note      = gamma=1.1 | domain=150×30 | resolution=1000×300 | tlim=150 | B-field=off
 <job>
 problem_id = jet-cool      # problem ID: basename of output filenames
 
