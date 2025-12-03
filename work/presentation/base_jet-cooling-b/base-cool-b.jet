@@ -2,9 +2,9 @@
 problem   = underdense Mach10 jet
 reference = 
 configure = --prob=jet 
-note      = gamma=5/3 | domain=150×30 | resolution=1000×300 | tlim=150 | B-field=off
+note      = gamma=1.1 | domain=150×30 | resolution=1000×300 | tlim=150 | B-field=on
 <job>
-problem_id = jet      # problem ID: basename of output filenames
+problem_id = jet-cool-b      # problem ID: basename of output filenames
 
 
 <output1>
@@ -44,7 +44,7 @@ ix3_bc     = outflow  # inner-X3 boundary flag
 ox3_bc     = outflow  # outer-X3 boundary flag
 
 <hydro>
-gamma   = 1.666666666667     # gamma = C_p/C_v
+gamma   = 1.1     # gamma = C_p/C_v
 
 <problem>
 d  = 1.0
@@ -63,7 +63,7 @@ vyjet = 0.0
 vzjet = 0.0 
 
 # no magnetic field
-bxjet = 0.0
+bxjet = 0.1
 byjet = 0.0
 bzjet = 0.0
 
